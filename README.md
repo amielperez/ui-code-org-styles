@@ -1,8 +1,7 @@
 # Front-end structure, old school way
 * Each JS is loaded via individual `<script>` tags
 * Each CSS is loaded via individual `<link>` tags
-* No concept of modules - everything is in the global namespace
-* You have to load everything in the right order
+* Each component is in its own file - this is great for working with other developers, but can be bad because it will blow up the number of HTTP requests that need to be made.
 
 ## Instructions
 * Each structure is in its own branch
