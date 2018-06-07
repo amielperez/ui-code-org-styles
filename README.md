@@ -1,4 +1,4 @@
-# Front-end structure, old school way
+# Using Webpack to enable ES6 modules + bundling JS files
 * Each JS is loaded via individual `<script>` tags
 * Each CSS is loaded via individual `<link>` tags
 * Development is done on separate files (which is good for teams)
