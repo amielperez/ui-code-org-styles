@@ -1,0 +1,22 @@
+{
+  "name": "ui-code-org-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amielperez/ui-code-org-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amielperez/ui-code-org-styles/issues"
+  },
+  "homepage": "https://github.com/amielperez/ui-code-org-styles#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
