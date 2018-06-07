@@ -6,4 +6,6 @@
 ## Instructions
 * Each structure is in its own branch
 * Switch to a branch you want to demo, e.g., using `git fetch` and `git checkout`
+* Run `npm run build` first to build the project
 * Run `node server` to run this on port 8080, or `node server XXXX` to run it in some other port `XXXX`
+* Or, you can just run `npm start` to do a build and server run, but this only binds to port 8080
