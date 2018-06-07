@@ -4,8 +4,8 @@
 * JS codes are all written in ES6 to take advantage of new features/syntactical sugar
 
 ## Instructions
-* Each structure is in its own branch
-* Switch to a branch you want to demo, e.g., using `git fetch` and `git checkout`
+* Each structure is in its own branch - it is recommended to pull all branches with `git fetch --all`
+* Checkout to a branch you want to demo
 * Run `node server` to run this on port 8080, or `node server XXXX` to run it in some other port `XXXX`
 
 ## Branches
