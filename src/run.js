@@ -1,6 +1,10 @@
+import Photo from './photo';
+import Caption from './caption';
+import PhotoCard from './photocard';
+
 (function () {
-    var photo = photos.Photo('img/foodie.jpg');
-    var caption = photos.Caption('Foodie, with concat/minify');
-    var photocard = photos.PhotoCard(photo, caption);
+    var photo = Photo('img/foodie.jpg');
+    var caption = Caption('Foodie, with Webpack (JS Only)');
+    var photocard = PhotoCard(photo, caption);
     document.getElementById('app').appendChild(photocard);
 }());

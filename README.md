@@ -2,7 +2,8 @@
 * Each JS is loaded via individual `<script>` tags
 * Each CSS is loaded via individual `<link>` tags
 * Development is done on separate files (which is good for teams)
-* These files are minified and concatenated in a single file, which is good for deployment
+* These files packaged using Webpack
+* Other assets like CSS and images are loaded independently still
 
 ## Instructions
 * Each structure is in its own branch

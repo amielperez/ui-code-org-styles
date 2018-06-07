@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node server",
-    "build": "node ./node_modules/uglify-js/bin/uglifyjs ./src/plainjs-utils.js ./src/photos-ns.js ./src/photocard.js ./src/photo.js ./src/caption.js ./src/run.js --compress --mangle --output ./assets/js/bundle.js",
+    "build": "node ./node_modules/webpack/bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,10 @@
   "homepage": "https://github.com/amielperez/ui-code-org-styles#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "uglify": "^0.1.5"
+    "uglify": "^0.1.5",
+    "webpack": "^4.11.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.3"
   }
 }
