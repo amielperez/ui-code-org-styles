@@ -1,4 +1,4 @@
-# Front-end structure, old school way
+# Modules split across files
 * Each JS is loaded via individual `<script>` tags
 * Each CSS is loaded via individual `<link>` tags
 * Each component is in its own file - this is great for working with other developers, but can be bad because it will blow up the number of HTTP requests that need to be made.
