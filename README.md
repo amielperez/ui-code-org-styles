@@ -1,7 +1,8 @@
 # Front-end structure, old school way
 * Each JS is loaded via individual `<script>` tags
 * Each CSS is loaded via individual `<link>` tags
-* Each component is in its own file - this is great for working with other developers, but can be bad because it will blow up the number of HTTP requests that need to be made.
+* Development is done on separate files (which is good for teams)
+* These files are minified and concatenated in a single file, which is good for deployment
 
 ## Instructions
 * Each structure is in its own branch
