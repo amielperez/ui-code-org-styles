@@ -1,7 +1,6 @@
 
-var photos = {};
-(function (module) {
-    module.PhotoCard = function (photoElem, captionElem) {
+var photos = (function () {
+    function PhotoCard(photoElem, captionElem) {
         var elem = plainJsUtils.createElem('div');
         plainJsUtils.addClass(elem, 'photo-card');
         elem.appendChild(photoElem);
@@ -9,7 +8,7 @@ var photos = {};
         return elem;
     }
     
-    module.Photo = function (imgSrc) {
+    function Photo(imgSrc) {
         var elem = plainJsUtils.createElem('div');
         var img = plainJsUtils.createElem('img');
         plainJsUtils.addClass(elem, 'photo');
@@ -18,11 +17,17 @@ var photos = {};
         return elem;
     }
     
-    module.Caption = function (text) {
+    function Caption(text) {
         var elem = plainJsUtils.createElem('div');
         plainJsUtils.addClass(elem, 'caption');
         plainJsUtils.addTextToElem(elem, text);
         return elem;
     }
-}(photos));
+
+    return {
+        PhotoCard: PhotoCard,
+        Photo: Photo,
+        Caption: Caption,
+    }
+}());
 

@@ -1,17 +1,20 @@
-var plainJsUtils = {};
-(function(module) {
-    module.createElem = function (type) {
+var plainJsUtils = (function() {
+    function createElem(type) {
         return document.createElement(type);
     }
     
-    module.addClass = function (el, className) {
+    function addClass(el, className) {
         if (el.classList) el.classList.add(className);
         else if (!hasClass(el, className)) el.className += ' ' + className;
     }
     
-    module.addTextToElem = function (elem, text) {
+    function addTextToElem(elem, text) {
         elem.appendChild(document.createTextNode(text));
     }
-    
 
-}(plainJsUtils));
+    return {
+        createElem: createElem,
+        addClass: addClass,
+        addTextToElem: addTextToElem,
+    }
+}());
