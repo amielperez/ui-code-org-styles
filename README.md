@@ -1,7 +1,8 @@
-# 101* ways to organize your front-end project
-(_* - Not really_) 
-* Components are written in vanilla JS to make this as stripped-down as possible
-* JS codes are all written in ES6 to take advantage of new features/syntactical sugar
+# Front-end structure, old school way
+* Each JS is loaded via individual `<script>` tags
+* Each CSS is loaded via individual `<link>` tags
+* No concept of modules - everything is in the global namespace
+* You have to load everything in the right order
 
 ## Instructions
 * Each structure is in its own branch

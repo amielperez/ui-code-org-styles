@@ -4,7 +4,7 @@ const app = express();
 
 const port = process.argv[2] || 8080;
 
-app.use(express.static(path.resolve(__dirname, structure, 'assets')));
+app.use(express.static(path.resolve(__dirname, 'assets')));
 
 app.listen(port, function () {
     console.log('Server started. Listening at port', port);

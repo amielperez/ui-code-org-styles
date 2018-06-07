@@ -1,0 +1,20 @@
+.photo-card {
+    width: 168px;
+    height: 220px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+  }
+  
+  .photo {
+    margin: 20px 20px;
+    box-sizing: border-box;
+  }
+  
+  .caption {
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    color: steelblue;
+    width: 100%;
+    margin: 0 20px;
+  }
